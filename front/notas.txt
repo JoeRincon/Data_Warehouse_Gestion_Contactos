@@ -1,0 +1,27 @@
+cambio de font
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+
+css
+
+font-family: 'Exo 2', sans-serif;
+
+cambio en el font body x 'Exo 2'
+
+================
+color
+============
+color original
+letra y borders
+reemplazo 127 entradas
+ #65cebc
+color de cambio
+#65cebc
+
+dobles border por border solid
+ nvo box shadow #556864
+
+referencia nvo logo <a href='https://pngtree.com/so/technology-icon'>technology icon png from pngtree.com</a>
+
+background color 
+original ghostwhite x white

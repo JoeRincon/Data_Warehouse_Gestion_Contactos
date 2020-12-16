@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conectate a tu cuenta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css">
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <picture class="logo_Container">
+        <img class="logo" src="../resources/Logo m.png" alt="Company_Logo">
+        <h2 class="text-white">Medium Agency</h2>
+      </picture>
+      
+      
+      <!-- <ul class="ul_Nav">
+        <li><a href="" class="contact_Html_Link">Contactos</a></li>
+        <li><a href="" class="company_Html_Link">Compañias</a></li>
+        <li><a href="" class="user_Html_Link">Usuarios</a></li>
+        <li><a href="" class="region_Html_Link">Región/Ciudad</a></li>
+      </ul> -->
+    </nav>
+  </header>
+  <main class="login_Main">
+    <section class="login_Section">
+      <div class="main_Container_Login">
+        <h1 class="login_Title">GESTION DE CONTACTOS</h1>
+        <ul class="ul_Log">
+          <li>USUARIO<input type="radio" class="user_Log" name="log" checked></li>
+          <li>ADMIN<input type="radio" class="admin_Log" name="log"></li>
+        </ul>
+        <div class="userInput_Container">
+          <label for="user_Input" class="labelUser_Input">correo / e-mail</label>
+          <input type="text" id="user_Input" placeholder="digite un email valido" class="user_Input">
+        </div>
+        <div class="userPassword_Container">
+          <label for="user_Password" class="labelUser_Password">clave / password</label>
+          <input type="password" id="user_Password" placeholder="digite su clave" class="user_Password">
+        </div>
+        <button class="submit_Btn">Ingresar</button>  
+      </div>
+    </section>
+  </main>
+  <script src="../js/login.js" type="module"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
