@@ -47,7 +47,7 @@ Descripción: Usar express para la configuración del servidor
 7. Desde VScode navegue la la ruta /front/html/login.html; desde el cuerpo del archivo login.html con clic derecho ejecute la opcion "Open with live server". Asi obtendra vista del login de la aplicacion para realizar el ingreso con los usuarios correspondientes.
 
 8. Puede ingresar a la aplicacion con alguno de estos usuarios: 
-# usuarios estandar
+<h3>usuarios estandar</h3>
 {
         name: "prueba1",
         lastname: "prueba",
@@ -60,7 +60,7 @@ Descripción: Usar express para la configuración del servidor
         email: "prueba2@test.com",
         password: "123456",
     }
-# usuarios administradores
+<h3>usuarios administradores</h3>
 {
         name: "super101",
         lastname: "admin101",
